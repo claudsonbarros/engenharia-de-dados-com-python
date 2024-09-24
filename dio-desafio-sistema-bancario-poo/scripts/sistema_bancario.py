@@ -343,7 +343,6 @@ def sacar(clientes):
     if not conta:
         return
     
-    print(conta)
     cliente.realizar_transacao(conta,transacao)
 
 def consultar_extrato(clientes):
